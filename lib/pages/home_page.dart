@@ -145,7 +145,7 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: createNewToDo,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
       body: toDoList.isEmpty
           ? const Center(
